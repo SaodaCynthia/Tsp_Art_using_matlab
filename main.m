@@ -61,7 +61,7 @@ plot(x,y,'k')
 axis equal
 
 
-function [sImage]= voronoi_stipple (im) % deal with I before
+function [sImage]= voronoi_stipple (im) 
 global magnify 
 global neg_color
 global pos_color
